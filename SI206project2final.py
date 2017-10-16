@@ -29,8 +29,8 @@ from bs4 import BeautifulSoup
 
 def find_urls(s):
     url_regex = (r"https?:\/\/\w+\.\w{1,}[^\s]+")
-    urls = re.compile(url_regex).findall(s) 
-    return urls
+    urlss = re.compile(url_regex).findall(s) 
+    return urlss
 
 
 ## PART 2  - Define a function grab_headlines.
